@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Berkshire+Swash&family=Calligraffitti&family=Darker+Grotesque&family=Great+Vibes&family=Handlee&family=Rochester&display=swap');
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #290100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----NAVBAR-----------------------------------------------------------------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: #540B00;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(180, 171, 156);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Darker Grotesque', sans-serif;
+    transition-duration: 0.3s;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/*----HEADER-----------------------------------------------------------------*/
+.header{
+    background-image: url(../Drácula/Imagens/castle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 80px;
+    line-height: 0.1;
+    padding-bottom: 95px;
+    padding-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header h1{
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(180, 171, 156);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 150px;
+}
+.header h6{
+    color: rgb(180, 171, 156);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    text-align: center;
+}
+/*----INFO-----------------------------------------------------------------*/
+.info{
+    padding: 3px;
+}
+.info h2,h4{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(180, 171, 156);
+    line-height: 0.3;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.info h4{
+    font-style: italic;
+}
+
+/*----CITATION-----------------------------------------------------------------*/
+.citation{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.citation div{
+    display: flex;
+    align-items: center;
+}
+.citation img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.citation p{
+    color: rgb(180, 171, 156);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Calligraffitti', cursive;
+    text-shadow: 3px 0 0 #170404;
+    padding: 0 10px;
+}
+
+/*----ROW-----------------------------------------------------------------*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+}
+.column{
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.column.side.left{
+    width: 25%;
+    background-color: #540b00;
+    height: 2449px;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.column.middle{
+    width: 75%;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*----ROW LEFT-----*/
+.column.side.left h1{
+    color: rgb(180, 171, 156);
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    background-color: #540B00;
+    text-shadow: #200d0d 3px 5px 2px;
+}
+.column.side.left h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(180, 171, 156);
+    font-family: 'Great Vibes', cursive;
+    background-color: #540B00;
+    text-shadow: #200d0d 3px 5px 2px;
+}
+.column.side.left p{
+    text-align:justify;
+    color: rgb(180, 171, 156);
+    font-size: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: #540B00;
+}
+.column.side.left img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.column.side.left a{
+    color: rgb(180, 171, 156);
+    background-color: #290100;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    float: right;
+}
+.column.side.left a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*----ROW MIDDLE-----*/
+.column.middle h1{
+    color: rgb(180, 171, 156);
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: #200d0d 3px 5px 2px;
+}
+.column.middle p{
+    color: rgb(180, 171, 156);
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Bad Script', cursive;
+}
+.column.middle a{
+    color: rgb(180, 171, 156);
+    background-color: #540B00;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;;
+    padding: 10px;
+    float: right;
+}
+.column.middle a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*----CHARACTERS-------------------------------------------------------------*/
+.characters{
+    background-color: #540B00;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.characters table{
+    width: 100%;
+}
+.characters div, table, tr, td {
+    background-color: #540B00;
+}
+.characters h1{
+    color: rgb(180, 171, 156);
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    background-color: #540B00;
+    text-shadow: #200d0d 3px 5px 2px;
+    width: 100%;
+    margin: 1px;
+    padding-bottom: 30px;
+}
+.characters h4{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(180, 171, 156);
+    font-size: 30px;
+    font-family: 'Handlee', cursive;
+    background-color: #540B00;
+    text-shadow: #200d0d 3px 5px 2px;
+}
+.characters p{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(180, 171, 156);
+    font-family: 'Darker Grotesque', sans-serif;
+    line-height: 0.3;
+    font-size: 25px;
+    background-color: #540B00;
+}
+
+/*----FILMS------------------------------------------------------------------*/
+.films div{
+    background-color: #540B00;
+}
+.films h1{
+    color: rgb(180, 171, 156);
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: #200d0d 3px 5px 2px;
+    padding-top: 60px;
+}
+.films h2{
+    font-weight: bold;
+    color: rgb(180, 171, 156);
+    font-size: 30px;
+    font-family: 'Handlee', cursive;
+    text-shadow: #200d0d 3px 5px 2px;
+}
+.films h4{
+    text-align:justify;
+    color: rgb(180, 171, 156);
+    font-size: 25px;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: center;
+}
+.films p{
+    text-align:justify;
+    color: rgb(180, 171, 156);
+    font-size: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding: 0 35px 0 35px;
+}
+.films a{
+    color: rgb(180, 171, 156);
+    background-color: #290100;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    float: right;
+}
+.films a:hover:not(.active) {
+    background-color: #111;
+}
+.films img{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.gallery img{
+    padding: 5px;
+}
+.poster{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*-----CURIOSITIES-----------------------------------------------------------*/
+.curiosities{
+    padding-top: 30px;
+    background-color: #290100;
+}
+.curiosities h1{
+    color: rgb(180, 171, 156);
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: #200d0d 3px 5px 2px;
+}
+.curiosities h4{
+    font-family: 'Darker Grotesque', sans-serif;
+    color: rgb(180, 171, 156);
+    font-size: 27px;
+    line-height: 1.0;
+    text-align: justify;
+    padding: 0 70px 0 70px;
+}
+.curiosities a{
+    color: rgb(180, 171, 156);
+    background-color: #290100;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    margin-left: 5px;
+}
+.curiosities a:hover:not(.active) {
+    background-color: #111;
+}
+.coluna {
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-color: #540b00;
+}
+.linha:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #540b00;
+}
+.back{
+    background-color: #540b00;
+    padding-bottom: 10px;
+}
+/*----FINAL-----------------------------------------------------------------*/
+.final{
+    padding: 35px;
+    margin-bottom: 10px;
+}
+.final h3{
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 3px 0 0 #170404;
+    color: rgb(180, 171, 156);
+    text-align: center;
+    font-size: 35px;
+}
+.final h1{
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 3px 0 0 #170404;
+    color: rgb(180, 171, 156);
+    text-align: center;
+    font-size: 35px;
+}
+.final a{
+    color: rgb(180, 171, 156);
+    background-color: #540B00;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    float: right;
+    text-align: center;
+    padding: 10px;
+}
+.final a:hover:not(.active) {
+    background-color: #111;
+}
+/*----FOOTER-----------------------------------------------------------------*/
+.footer{
+    text-align: center;
+    color: rgb(180, 171, 156);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #540B00;
+    padding: 40px;
+}

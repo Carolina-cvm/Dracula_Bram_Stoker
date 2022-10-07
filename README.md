@@ -1,7 +1,8 @@
 <h1 align="center">🧛‍ Drácula de Bram Stoker (1897) 🧛‍</h1>
 <h3 align="center">Resumo do livro, personagens, adaptações do cinema e curiosidades.</h3>
 <p align="center">
-  <img width="460px" height="271px" src="https://user-images.githubusercontent.com/55239200/194447413-7e2e5bac-3276-4a38-947b-1d4683c4153f.gif" alt="animated" />
-  <img src="https://user-images.githubusercontent.com/55239200/194447417-1a3ed773-1f44-44ce-b21c-34ea8f29256a.gif" />
+  <img src="https://user-images.githubusercontent.com/55239200/194583634-e0249e12-e727-4ee0-bcd4-17add7638b1d.gif"  />
+  <img src="https://user-images.githubusercontent.com/55239200/194584103-af5c7705-8209-463f-b041-3698d2cac5e4.gif" />
 </p>
 <h3 align="center">Feito com ❤️ </h3>
+

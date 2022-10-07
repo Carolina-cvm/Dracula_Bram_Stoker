@@ -396,3 +396,7 @@ li a:hover:not(.active) {
     background-color: #540B00;
     padding: 40px;
 }
+
+.footer p{
+    font-weight: bold;
+}

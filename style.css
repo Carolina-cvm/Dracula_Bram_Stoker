@@ -34,7 +34,7 @@ li a:hover:not(.active) {
 }
 /*----HEADER-----------------------------------------------------------------*/
 .header{
-    background-image: url(../Drácula/Imagens/castle.png);
+    background-image: url('./Imagens/castle.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 80px;

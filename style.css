@@ -400,3 +400,10 @@ li a:hover:not(.active) {
 .footer p{
     font-weight: bold;
 }
+
+.footer a{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(180, 171, 156);
+}
+    

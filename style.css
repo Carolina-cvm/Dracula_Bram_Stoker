@@ -394,7 +394,8 @@ li a:hover:not(.active) {
     color: rgb(180, 171, 156);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #540B00;
-    padding: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .footer p{
